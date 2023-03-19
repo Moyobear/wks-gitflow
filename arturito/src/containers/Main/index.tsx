@@ -37,8 +37,8 @@ const MainContainer = () => {
               films. Codear en un componente aparte tal como {'<Planets>'}.
             </p>
             <p>
-              <a href="https://swapi.it/documentation#starships">
-                https://swapi.it/documentation#starships
+              <a href="https://swapi.dev/documentation">
+                https://swapi.dev/documentation
               </a>
             </p>
           </div>
