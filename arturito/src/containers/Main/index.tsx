@@ -5,6 +5,7 @@ import SectionSelector from '../../components/SectionSelector';
 import Home from '../../components/HomeSection';
 import Planets from '../../components/PlanetsSection';
 import Starships from '../../components/StarshipsSection';
+import Species from '../../components/SpeciesSection';
 
 const MainContainer = () => {
   const location = useLocation();
@@ -27,6 +28,10 @@ const MainContainer = () => {
       <Switch>
         <Route path={paths.planets.href}>
           <Planets />
+        </Route>
+
+        <Route path={paths.species.href}>
+          <Species />
         </Route>
 
         <Route path={paths.starships.href}>
